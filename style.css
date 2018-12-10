@@ -1,6 +1,6 @@
 body{
     background-image: url("https://images.unsplash.com/photo-1521106750680-1a5b39482449?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8b8f4fa880862addf3bd1944b012d160&auto=format&fit=crop&w=1458&q=80");
-    }
+}
 .row{   
 
     /*background-color:black;*/
@@ -21,9 +21,6 @@ body{
     margin-top:5px;
     margin-bottom:5px;
 }
-.aboutme{
-    border:1px solid black;   
-}
 
 #image{
     border-radius:50%;  
@@ -36,6 +33,8 @@ body{
 #image2{
     width:499px;
     height:556px;
+    min-width: 499px;
+    min-height: 556px;
 }
 .info{
     width:500px;
